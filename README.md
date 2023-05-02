@@ -1,1 +1,1 @@
-# Autotest course https://stepik.org/course/575/syllabus
+# Selenium autotest course https://stepik.org/course/575/syllabus
