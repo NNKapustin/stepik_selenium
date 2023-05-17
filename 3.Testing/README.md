@@ -1,0 +1,5 @@
+## [3.1.testing by unittest example](./3.1.Unittest)
+## [3.2.testing by pytest examples](./3.2.PyTest)
+## [3.3.test_fixture.py - classical, test_fixture2.py - @pytest.fixture, test_fixture3.py - finalisation and scopes, test_fixture4.py - fixture autouse](./3.3.Fixtures)
+## [3.4.test_main.py - examples of marking tests](./3.4.Marks)
+## [3.5.store fixtures in file conftest.py который должен лежать в директории верхнего уровня в вашем проекте с тестами](./3.5.Conftest)

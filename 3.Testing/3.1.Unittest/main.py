@@ -3,7 +3,8 @@ from selenium.webdriver.common.by import By
 import time
 import unittest
 
-class test_registration(unittest.TestCase):
+
+class TestRegistration(unittest.TestCase):
     def test_registration_1(self):
 
         with webdriver.Chrome() as browser:
