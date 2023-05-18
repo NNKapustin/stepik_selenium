@@ -5,7 +5,8 @@ import time
 
 
 def calc(x):
-  return str(math.log(abs(12*math.sin(int(x)))))
+    return str(math.log(abs(12*math.sin(int(x)))))
+
 
 with webdriver.Chrome() as browser:
     browser.get("https://suninjuly.github.io/math.html")

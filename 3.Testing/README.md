@@ -3,3 +3,6 @@
 ## [3.3.test_fixture.py - classical, test_fixture2.py - @pytest.fixture, test_fixture3.py - finalisation and scopes, test_fixture4.py - fixture autouse](./3.3.Fixtures)
 ## [3.4.test_main.py - examples of marking tests](./3.4.Marks)
 ## [3.5.store fixtures in file conftest.py который должен лежать в директории верхнего уровня в вашем проекте с тестами](./3.5.Conftest)
+## [3.6.@pytest.mark.parametrize() - launch tests with different parameters](./3.6.Parametrize)
+## [3.7.Task on parametrize links](./3.7.task1)
+## [3.8.Task on changing language in browser by addoption](./3.8.TaskMain)
