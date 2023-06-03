@@ -32,4 +32,4 @@ class TestLogin:
         pass
 
 
-# pytest -s -v test_main.py - запуск
+# pytest -s -v test_product_page.py - запуск
