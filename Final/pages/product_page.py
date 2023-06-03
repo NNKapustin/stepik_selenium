@@ -1,6 +1,6 @@
 import math
 import time
-import credentials
+
 
 from .base_page import BasePage
 from .locators import MainPageLocators
@@ -53,5 +53,5 @@ class ProductPage(BasePage):
               f"\n {product_message.encode('utf-8')}")
 
         # проверяем, что сообщения соответствую эталонным. Предполагаем, что мы знаем практику формирования инфомрационных сообщений
-        assert (credentials.REF_MESSAGE_TO_OUTPUT_PRICE + " " + price) == price_message, "Incorrectly formed message with the price of the product"
-        assert (name_item + " " + credentials.REF_MESSAGE_TO_OUTPUT_NAME_ITEM) == product_message, "Incorrectly formed message with the name of the product"
+        assert ("Your basket total is now" + " " + price) == price_message, "Incorrectly formed message with the price of the product"
+        assert (name_item + " " + "has been added to your basket.") == product_message, "Incorrectly formed message with the name of the product"

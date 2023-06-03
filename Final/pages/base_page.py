@@ -8,8 +8,7 @@ from selenium.common.exceptions import TimeoutException
 from .locators import BasePageLocators, MainPageLocators
 
 
-class BasePage():
-
+class BasePage:
     # конструктор, метод который вызывается, когда мы создаем объект
     def __init__(self, browser, url, timeout=5):
         self.browser = browser
